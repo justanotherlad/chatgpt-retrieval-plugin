@@ -38,20 +38,6 @@ components:
       title: DocumentChunkMetadata
       type: object
       properties:
-        source:
-          $ref: "#/components/schemas/Source"
-        source_id:
-          title: Source Id
-          type: string
-        url:
-          title: Url
-          type: string
-        created_at:
-          title: Created At
-          type: string
-        author:
-          title: Author
-          type: string
         notes:
           title: Notes
           type: string
@@ -88,20 +74,6 @@ components:
       properties:
         document_id:
           title: Document Id
-          type: string
-        source:
-          $ref: "#/components/schemas/Source"
-        source_id:
-          title: Source Id
-          type: string
-        author:
-          title: Author
-          type: string
-        start_date:
-          title: Start Date
-          type: string
-        end_date:
-          title: End Date
           type: string
         notes:
           title: Notes
