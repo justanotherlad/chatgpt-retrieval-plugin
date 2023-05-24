@@ -41,6 +41,9 @@ components:
         notes:
           title: Notes
           type: string
+        keywords:
+          title: Keywords
+          type: string
         document_id:
           title: Document Id
           type: string
@@ -77,6 +80,9 @@ components:
           type: string
         notes:
           title: Notes
+          type: string
+        keywords:
+          title: Keywords
           type: string
     HTTPValidationError:
       title: HTTPValidationError
