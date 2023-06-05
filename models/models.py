@@ -9,7 +9,7 @@ class Source(str, Enum):
     chat = "chat"
 
 
-class DocumentMetadata(BaseModel):
+#class DocumentMetadata(BaseModel):
     #notes: Optional[str] = None
 
 
