@@ -38,9 +38,6 @@ components:
       title: DocumentChunkMetadata
       type: object
       properties:
-        notes:
-          title: Notes
-          type: string
         document_id:
           title: Document Id
           type: string
@@ -74,9 +71,6 @@ components:
       properties:
         document_id:
           title: Document Id
-          type: string
-        notes:
-          title: Notes
           type: string
     HTTPValidationError:
       title: HTTPValidationError

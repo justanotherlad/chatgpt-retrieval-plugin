@@ -10,7 +10,7 @@ class Source(str, Enum):
 
 
 class DocumentMetadata(BaseModel):
-    notes: Optional[str] = None
+    #notes: Optional[str] = None
 
 
 class DocumentChunkMetadata(DocumentMetadata):
@@ -40,7 +40,7 @@ class DocumentWithChunks(Document):
 
 class DocumentMetadataFilter(BaseModel):
     document_id: Optional[str] = None
-    notes: Optional[str] = None
+    #notes: Optional[str] = None
 
 
 class Query(BaseModel):
