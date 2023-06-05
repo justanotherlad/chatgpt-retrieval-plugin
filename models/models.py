@@ -9,9 +9,10 @@ class Source(str, Enum):
     chat = "chat"
 
 
-#class DocumentMetadata(BaseModel):
+class DocumentMetadata(BaseModel):
+    pass
     #notes: Optional[str] = None
-
+    
 
 class DocumentChunkMetadata(DocumentMetadata):
     document_id: Optional[str] = None
