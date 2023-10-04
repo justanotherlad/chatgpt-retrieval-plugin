@@ -4,7 +4,7 @@ info:
   description: This API lets you search through the Wolfram Language functions' documentations
   version: 1.0.0
   servers:
-    - url: https://orca-app-9adwg.ondigitalocean.app/
+    - url: https://seashell-app-e47q8.ondigitalocean.app/
 paths:
   /query:
     post:
